@@ -62,7 +62,7 @@ function ensureDemoUser(name, email, password, role) {
   console.log(`Seeded demo account: ${email} / ${password}`);
 }
 
-ensureDemoUser('Demo User', 'user@demo.local', 'User@123', 'user');
-ensureDemoUser('Demo Admin', 'admin@demo.local', 'Admin@123', 'admin');
+ensureDemoUser('Demo User', 'user@demo.com', 'User@123', 'user');
+ensureDemoUser('Demo Admin', 'admin@demo.com', 'Admin@123', 'admin');
 
 module.exports = db;

@@ -6,7 +6,7 @@ require('./database/db'); // creates tables and seeds demo users
 const provisioner = require('./services/provisioner');
 
 const app = express();
-const defaultOrigins = ['http://localhost:5173', 'http://infra-portal.vimalv.com'];
+const defaultOrigins = ['http://infra-portal.vimalv.com', 'http://infra-portal.vimalv.com'];
 const envOrigins = (process.env.CLIENT_ORIGIN || '')
   .split(',')
   .map((s) => s.trim())
